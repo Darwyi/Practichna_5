@@ -39,5 +39,7 @@ public class Zavdannya_1 {
         y = Alpha * (1-Math.cos(c)/Math.sqrt(Math.pow(n,2)-Math.pow(Math.sin(c), 2)));
 
         System.out.printf("\nПерший та другий приклади з вашими данними(2 знаки після коми): x = %.2f \n y = %.2f", x, y);
+
+        scanner.close();
     }
 }
