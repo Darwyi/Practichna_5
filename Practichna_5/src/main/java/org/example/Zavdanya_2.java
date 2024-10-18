@@ -32,5 +32,7 @@ public class Zavdanya_2 {
         //вивід функції
         double result = function(x, a, b);
         System.out.println("Функія f(" + x + ") = " + result);
+
+        scanner.close();
     }
 }
